@@ -1,0 +1,16 @@
+---
+- name: SetUp Webserver
+  hosts: all
+  become: true
+  tasks:
+
+    - name: Set timezone to Asia/Tokyo
+      community.general.timezone:
+        name: Africa/Lagos
+        
+    - name: Copy index.html
+      script: apache.sh
+      
+
+    
+  

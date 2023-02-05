@@ -1,0 +1,7 @@
+Ansible/apache.pem
+Ansible/apache.pemZone.Identifier
+
+Terraform/.terraform
+Terraform/.terraform.lock.hcl
+Terraform/terraform.tfstate
+Terraform/terraform.tfstate.backup
